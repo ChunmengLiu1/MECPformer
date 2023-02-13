@@ -1,6 +1,6 @@
 # MECPformer
 Implementation of "MECPformer: Multi-estimations Complementary Patch with CNN-Transformers for Weakly Supervised Semantic Segmentation"
-<p align="left"><img src="imgs/framework.pdf" alt="outline" width="95%"></p>
+<p align="left"><img src="imgs/framework.png" alt="outline" width="95%"></p>
 
 ## Abstract
 The initial seed based on the convolutional neural network (CNN) for weakly supervised semantic segmentation always highlights the most
