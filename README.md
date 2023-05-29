@@ -1,4 +1,4 @@
-## MECPformer
+# MECPformer
 Official Implementation of the paper: [MECPformer: Multi-estimations Complementary Patch with CNN-Transformers for Weakly Supervised Semantic Segmentation](https://arxiv.org/pdf/2303.10689.pdf).
 
 submitted to Neural Computing and Applications.
