@@ -1,7 +1,7 @@
-# MECPformer
+## MECPformer
 Official Implementation of the paper: [MECPformer: Multi-estimations Complementary Patch with CNN-Transformers for Weakly Supervised Semantic Segmentation](https://arxiv.org/pdf/2303.10689.pdf).
 
-submitted to Neural Computing and Applications
+submitted to Neural Computing and Applications.
 
 <p align="left"><img src="imgs/framework.png" alt="outline" width="95%"></p>
 
@@ -31,15 +31,16 @@ Download [saliency map](https://drive.google.com/file/d/1n7hVi8U2ylBMjz_bECsl_wS
 
 ## Usage
 
-#### Run the run.sh script for training MECPformer in the initial seeds stage, visualizing and evaluating the generated class-specific initial seeds. 
+#### 1. Run the run.sh script for training MECPformer in the initial seeds stage, visualizing and evaluating the generated class-specific initial seeds
 
 ```bash run.sh```
 
-#### Train semantic segmentation network
+#### 2. Train semantic segmentation network
 To train DeepLab-v2, we refer to [deeplab-pytorch](https://github.com/kazuto1011/deeplab-pytorch).
 
 ## Testing
-#### 1. Download our trained model in the initial seeds stage.
+
+#### Download our trained model
 | Stage       | Backbone   | Google drive | mIoU (%) |
 |--------------|------------|--------------|--------------|
 | Initial seeds | Conformer-S | [Weights](https://drive.google.com/file/d/1pYWyNjPTLVrZ5nlvipmgjRa_bDP6qSRE/view?usp=share_link)  | 66.6 |
