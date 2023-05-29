@@ -30,9 +30,12 @@ Download [saliency map](https://drive.google.com/file/d/1n7hVi8U2ylBMjz_bECsl_wS
 
 ## Usage
 
-#### run the run.sh script for training MECPformer, visualizing and evaluating the generated class-specific initial seeds. 
+#### Run the run.sh script for training MECPformer in the initial seeds stage, visualizing and evaluating the generated class-specific initial seeds. 
 
 ```bash run.sh```
+
+#### Train semantic segmentation network
+To train DeepLab-v2, we refer to [deeplab-pytorch](https://github.com/kazuto1011/deeplab-pytorch).
 
 ## Testing
 #### 1. Download our trained model in the initial seeds stage.
