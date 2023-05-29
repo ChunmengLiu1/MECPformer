@@ -1,5 +1,7 @@
 # MECPformer
-Official Implementation of "MECPformer: Multi-estimations Complementary Patch with CNN-Transformers for Weakly Supervised Semantic Segmentation"
+Official Implementation of the paper: [MECPformer: Multi-estimations Complementary Patch with CNN-Transformers for Weakly Supervised Semantic Segmentation.](https://arxiv.org/pdf/2303.10689.pdf)
+
+submitted to Neural Computing and Applications
 <p align="left"><img src="imgs/framework.png" alt="outline" width="95%"></p>
 
 ## Abstract
@@ -10,6 +12,12 @@ the transformer. Given a class, the initial seeds generated based on the transfo
 by the mentioned issues, we devise a simple yet effective method with Multi-estimations Complementary Patch (MECP) strategy and Adaptive
 Conflict Module (ACM), dubbed MECPformer. Given an image, we manipulate it with the MECP strategy at different epochs, and the network mines and deeply fuses the semantic information at different levels. In addition, ACM adaptively removes conflicting pixels and exploits the network self-training capability to mine potential target information. Without bells and whistles, our MECPformer has reached new state-of-the-art 72.0% mIoU on the PASCAL VOC 2012 and 42.4% on MS COCO 2014 dataset. 
 
-## News
-1) Code will be made publicly available soon.
-2) Code now is cleaning. Stay tune.
+## Prerequisite
+
+#### 1. Download pretrained model
+Download Conformer-S pretrained weights from [link](https://drive.google.com/file/d/1qjLDy8MYU_TV2hspyYNCXeWrWho360qa/view?usp=share_link)
+
+#### 2. Download saliency map
+Download saliency map from [link](https://drive.google.com/file/d/1n7hVi8U2ylBMjz_bECsl_wSAmlRqnVr8/view?usp=share_link)
+
+## 
