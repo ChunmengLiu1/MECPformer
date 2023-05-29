@@ -1,5 +1,6 @@
 # MECPformer
-Official Implementation of the paper: [MECPformer: Multi-estimations Complementary Patch with CNN-Transformers for Weakly Supervised Semantic Segmentation](https://arxiv.org/pdf/2303.10689.pdf)
+Official Implementation of the paper: [MECPformer: Multi-estimations Complementary Patch with CNN-Transformers for Weakly Supervised Semantic Segmentation.](https://arxiv.org/pdf/2303.10689.pdf)
+
 submitted to Neural Computing and Applications
 <p align="left"><img src="imgs/framework.png" alt="outline" width="95%"></p>
 
@@ -13,10 +14,10 @@ Conflict Module (ACM), dubbed MECPformer. Given an image, we manipulate it with 
 
 ## Prerequisite
 
-#### Download pretrained model
+#### 1. Download pretrained model
 Download Conformer-S pretrained weights from [link](https://drive.google.com/file/d/1qjLDy8MYU_TV2hspyYNCXeWrWho360qa/view?usp=share_link)
 
-#### Download saliency map
+#### 2. Download saliency map
 Download saliency map from [link](https://drive.google.com/file/d/1n7hVi8U2ylBMjz_bECsl_wSAmlRqnVr8/view?usp=share_link)
 
 ## 
