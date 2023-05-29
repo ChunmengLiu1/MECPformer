@@ -47,4 +47,4 @@ To train DeepLab-v2, we refer to [deeplab-pytorch](https://github.com/kazuto1011
 | Final predict | ResNet101 | [Weights]()  | 72.0 |
 
 ## Acknowledgements
-This codebase is heavily borrowed from [TransCAM](https://github.com/liruiwen/TransCAM) and [deeplab-pytorch](https://github.com/kazuto1011/deeplab-pytorch).
+This code is borrowed from [TransCAM](https://github.com/liruiwen/TransCAM) and [deeplab-pytorch](https://github.com/kazuto1011/deeplab-pytorch).
