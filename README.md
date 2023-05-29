@@ -16,6 +16,7 @@ Conflict Module (ACM), dubbed MECPformer. Given an image, we manipulate it with 
 
 #### 1. install dependencies 
 Ubuntu 20.04, with Python 3.6 and the following python dependencies.
+
 ```pip install -r requirements.txt```
 
 #### 2. Download dataset 
@@ -29,13 +30,15 @@ Download [saliency map](https://drive.google.com/file/d/1n7hVi8U2ylBMjz_bECsl_wS
 
 ## Usage
 
-#### 1. run the run.sh script for training MECPformer, visualizing and evaluating the generated class-specific initial seeds. 
+#### run the run.sh script for training MECPformer, visualizing and evaluating the generated class-specific initial seeds. 
+
 ```bash run.sh```
-## PASCAL VOC 2012 dataset
+
+## Trained model on PASCAL VOC 2012 dataset.
 | Stage       | Backbone   | Google drive | Train mIoU (%) |
 |--------------|------------|--------------|--------------|
 | Initial seeds | Conformer-S | [Weights](https://drive.google.com/file/d/1pYWyNjPTLVrZ5nlvipmgjRa_bDP6qSRE/view?usp=share_link)  | 66.6 |
 
-|  Stage      | Backbone   | Google drive | Val mIoU (%) |
+| Stage       | Backbone   | Google drive |  Val mIoU (%)  |
 |--------------|------------|--------------|--------------|
-| Prediction | ResNet101 | [Weights]()  | 72.0 |
+|Final prediction | ResNet101 | [Weights]()  | 72.0 |
