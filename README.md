@@ -31,7 +31,7 @@ Download [saliency map](https://drive.google.com/file/d/1n7hVi8U2ylBMjz_bECsl_wS
 
 ## Usage
 
-#### 1. Run the run.sh script for training MECPformer in the initial seeds stage, visualizing and evaluating the generated class-specific initial seeds
+#### 1. Run the run.sh script for training MECPformer in the initial seeds stage
 
 ```bash run.sh```
 
