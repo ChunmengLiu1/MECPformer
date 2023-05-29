@@ -23,7 +23,7 @@ Ubuntu 20.04, with Python 3.6 and the following python dependencies.
 #### 2. Download dataset 
 Download [the PASCAL VOC 2012 development kit](http://host.robots.ox.ac.uk/pascal/VOC/voc2012).
 
-#### 3. Download pretrained model
+#### 3. Download pretrained weights
 Download [Conformer-S pretrained weights](https://drive.google.com/file/d/1qjLDy8MYU_TV2hspyYNCXeWrWho360qa/view?usp=share_link).
 
 #### 4. Download saliency map
@@ -44,7 +44,7 @@ To train DeepLab-v2, we refer to [deeplab-pytorch](https://github.com/kazuto1011
 | Stage       | Backbone   | Google drive | mIoU (%) |
 |--------------|------------|--------------|--------------|
 | Initial seeds | Conformer-S | [Weights](https://drive.google.com/file/d/1pYWyNjPTLVrZ5nlvipmgjRa_bDP6qSRE/view?usp=share_link)  | 66.6 |
-| Final predict | ResNet101 | [Weights]()  | 72.0 |
+| Final predict | ResNet101 | [Weights](https://drive.google.com/file/d/1thFitdq1MYq_BWKmNIlKZp1BCQzZFJQi/view?usp=share_link)  | 72.0 |
 
 ## Acknowledgements
 This code is borrowed from [TransCAM](https://github.com/liruiwen/TransCAM) and [deeplab-pytorch](https://github.com/kazuto1011/deeplab-pytorch).
