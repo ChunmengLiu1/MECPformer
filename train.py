@@ -31,7 +31,7 @@ if __name__ == '__main__':
     parser.add_argument("--arch", default='sm21', type=str)
     parser.add_argument("--val_list", default="voc12/val.txt", type=str)
     parser.add_argument("--session_name", default="MECPformer_0525", type=str)
-    parser.add_argument("--crop_size", default=224, type=int)  # 512
+    parser.add_argument("--crop_size", default=512, type=int)  # 512
     parser.add_argument("--weights", required=True, type=str)
     parser.add_argument("--voc12_root", default='../VOCdevkit/VOC2012', type=str)
     parser.add_argument("--tblog_dir", default='./tblog', type=str)
