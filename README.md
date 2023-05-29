@@ -34,11 +34,12 @@ Download [saliency map](https://drive.google.com/file/d/1n7hVi8U2ylBMjz_bECsl_wS
 
 ```bash run.sh```
 
-## Trained model on PASCAL VOC 2012 dataset.
-| Stage       | Backbone   | Google drive | Train mIoU (%) |
+## Testing
+#### 1. Download our trained model in the initial seeds stage.
+| Stage       | Backbone   | Google drive | mIoU (%) |
 |--------------|------------|--------------|--------------|
 | Initial seeds | Conformer-S | [Weights](https://drive.google.com/file/d/1pYWyNjPTLVrZ5nlvipmgjRa_bDP6qSRE/view?usp=share_link)  | 66.6 |
+| Final predict | ResNet101 | [Weights]()  | 72.0 |
 
-| Stage       | Backbone   | Google drive |  Val mIoU (%)  |
-|--------------|------------|--------------|--------------|
-|Final prediction | ResNet101 | [Weights]()  | 72.0 |
+## Acknowledgements
+This codebase is heavily borrowed from [TransCAM](https://github.com/liruiwen/TransCAM) and [deeplab-pytorch](https://github.com/kazuto1011/deeplab-pytorch).
