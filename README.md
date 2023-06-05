@@ -40,11 +40,11 @@ To train DeepLab-v2, we refer to [deeplab-pytorch](https://github.com/kazuto1011
 
 ## Testing
 
-#### Download our trained model
+#### Download our trained weights
 | Stage       | Backbone   | Google drive | mIoU (%) |
 |--------------|------------|--------------|--------------|
 | Initial seeds | Conformer-S | [Weights](https://drive.google.com/file/d/1pYWyNjPTLVrZ5nlvipmgjRa_bDP6qSRE/view?usp=share_link)  | 66.6 |
 | Final predict | ResNet101 | [Weights](https://drive.google.com/file/d/1thFitdq1MYq_BWKmNIlKZp1BCQzZFJQi/view?usp=share_link)  | 72.0 |
 
 ## Acknowledgements
-This code is borrowed from [TransCAM](https://github.com/liruiwen/TransCAM) and [deeplab-pytorch](https://github.com/kazuto1011/deeplab-pytorch).
+This code is borrowed from [TransCAM](https://github.com/liruiwen/TransCAM), [CPN](https://github.com/Ferenas/CPN), and [deeplab-pytorch](https://github.com/kazuto1011/deeplab-pytorch).
