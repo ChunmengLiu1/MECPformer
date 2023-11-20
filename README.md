@@ -52,6 +52,7 @@ This code is borrowed from [TransCAM](https://github.com/liruiwen/TransCAM), [CP
 ## Citing MECPformer
 
 If you use MECPformer in your research, please use the follwing entry:
+
 '''
 @article{liu2023mecpformer,
   title={MECPformer: Multi-estimations Complementary Patch with CNN-Transformers for Weakly Supervised Semantic Segmentation},
@@ -60,7 +61,9 @@ If you use MECPformer in your research, please use the follwing entry:
   year={2023}
 }
 '''
+
 or
+
 '''
 Liu, C., Li, G., Shen, Y. et al. MECPformer: multi-estimations complementary patch with CNN-transformers for weakly supervised semantic segmentation. Neural Comput & Applic 35, 23249–23264 (2023). https://doi.org/10.1007/s00521-023-08816-2
 '''
